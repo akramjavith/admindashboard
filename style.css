@@ -1,0 +1,100 @@
+.sidebar {
+    height: 120%;
+    width: 250px;
+    position: fixed;
+    color: black;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    gap: 20px;
+    background-color:rgb(29, 178, 236); 
+    overflow-x: hidden;
+    padding: 15px 20px 20px 15px;
+  
+  }
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 10px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  .content {
+    background-color: var(--gray-2);
+    grid-area: content;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: min-content 1fr;
+    gap: 2rem;
+    grid-template-areas:
+      'projects announcements'
+      'projects trending';
+    overflow: auto;
+  }
+  
+  .content h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .card {
+    background-color: var(--gray-1);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+  }
+  
+  .card-text {
+    color: var(--gray-m);
+  }
+  
+  .projects {
+    grid-area: projects;
+  }
+  
+  .projects .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 250px;
+    gap: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .projects .card {
+    border-left: 10px solid var(--accent);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .projects .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.25em;
+  }
+  
+  .projects .card-text {
+    /* font-size: 0.8rem; */
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  
