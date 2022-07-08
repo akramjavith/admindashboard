@@ -176,7 +176,7 @@ body {
 
 /* sidebar*/
 .sidebar {
-  background-color: rgb(16, 164, 255) ;
+  background-color: var(--primary);
   color: var(--gray-1);
   padding: 2rem;
   grid-area: sidebar;
