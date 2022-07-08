@@ -6,7 +6,7 @@
   --gray-3: #292524;
   --gray-4: #1c1917;
   --gray-m: #78716c;
-  --primary:yellowgreen;
+  --primary:skyblue;
   --accent: red;
   --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -67,9 +67,9 @@ body {
     'sidebar content';
 }
 
-/*  HEADER  */
+/* header*/
 .header {
-  background-color: rgb(114, 20, 20);
+  background-color:#efeff5;
   grid-area: header;
   padding: 1.5rem 3rem;
   box-shadow: var(--shadow-lg);
@@ -153,12 +153,21 @@ body {
   height: 75px;
 }
 
-.profile .greeting {
+.profile{
   font-weight: 800;
   margin-bottom: 0.4rem;
 }
 
-.profile .name {
+.greeting{
+  font-weight: 800;
+  margin-bottom: 0.4rem;
+}
+
+.profile {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+.name {
   font-size: 1.6rem;
   font-weight: 800;
 }
@@ -178,10 +187,10 @@ body {
   border-radius: 99em;
 }
 
-/* SIDEBAR  */
+/* Sidebar*/
 .sidebar {
-  background-color: var(--primary);
-  color: var(--gray-1);
+  background-color: #10a1e4e1;
+  color:whitesmoke;
   padding: 2rem;
   grid-area: sidebar;
 }
@@ -218,7 +227,7 @@ body {
   font-size: 1.5em;
 }
 
-/* MAIN CONTENT  */
+/*main contents*/
 .content {
   background-color: whitesmoke;
   grid-area: content;
