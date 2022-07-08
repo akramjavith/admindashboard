@@ -163,7 +163,7 @@ body {
   margin-bottom: 0.4rem;
 }
 
-.profile {
+.profile .name {
   font-size: 1.6rem;
   font-weight: 800;
 }
