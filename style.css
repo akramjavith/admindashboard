@@ -17,8 +17,8 @@
 html {
   box-sizing: border-box;
   font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen,
-  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: red;
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: var(--gray-4);
 }
 
 *,
@@ -51,13 +51,9 @@ button {
   background: none;
   cursor: pointer;
 }
-button:hover{
-  cursor: pointer;
-  color: aqua;
-}
 
 body {
-  color: green;
+  color: var(--gray-3);
   height: 100vh;
   display: grid;
   grid-template-columns: 300px 1fr;
@@ -67,9 +63,9 @@ body {
     'sidebar content';
 }
 
-/* header*/
+/* header */
 .header {
-  background-color:#efeff5;
+  background-color: var(--gray-1);
   grid-area: header;
   padding: 1.5rem 3rem;
   box-shadow: var(--shadow-lg);
@@ -103,7 +99,7 @@ body {
 .search > #search {
   display: inline-block;
   border: 0;
-  background-color: whitesmoke;
+  background-color: var(--gray-2);
   padding: 0.75em 2em;
   outline-color: var(--primary);
   margin-left: 1.25rem;
@@ -153,21 +149,12 @@ body {
   height: 75px;
 }
 
-.profile{
-  font-weight: 800;
-  margin-bottom: 0.4rem;
-}
-
-.greeting{
+.profile .greeting {
   font-weight: 800;
   margin-bottom: 0.4rem;
 }
 
 .profile .name {
-  font-size: 1.6rem;
-  font-weight: 800;
-}
-.name {
   font-size: 1.6rem;
   font-weight: 800;
 }
@@ -181,16 +168,16 @@ body {
 
 .btn {
   background-color: var(--primary);
-  color: royalblue;
+  color: var(--gray-1);
   font-weight: 500;
   padding: 0.75em 2.3em;
   border-radius: 99em;
 }
 
-/* Sidebar*/
+/* sidebar*/
 .sidebar {
-  background-color: #10a1e4e1;
-  color:whitesmoke;
+  background-color: rgb(16, 164, 255) ;
+  color: var(--gray-1);
   padding: 2rem;
   grid-area: sidebar;
 }
@@ -227,9 +214,9 @@ body {
   font-size: 1.5em;
 }
 
-/*main contents*/
+/* main content */
 .content {
-  background-color: whitesmoke;
+  background-color: var(--gray-2);
   grid-area: content;
   padding: 2rem;
   display: grid;
@@ -248,14 +235,14 @@ body {
 }
 
 .card {
-  background-color: yellow;
+  background-color: var(--gray-1);
   padding: 2rem;
   border-radius: 0.5rem;
   box-shadow: var(--shadow);
 }
 
 .card-text {
-  color:black;
+  color: var(--gray-m);
 }
 
 .projects {
@@ -271,7 +258,7 @@ body {
 }
 
 .projects .card {
-  border-left: 10px solid rebeccapurple;
+  border-left: 10px solid var(--accent);
   display: flex;
   flex-direction: column;
 }
@@ -334,7 +321,7 @@ body {
 }
 
 .announcement + .announcement {
-  border-top: blue 1px solid;
+  border-top: var(--gray-2) 1px solid;
 }
 
 .trending {
@@ -375,7 +362,6 @@ body {
   font-weight: 500;
   margin-bottom: 0.15rem;
 }
-
 
 .trend-1 .picture {
   background-image: url(https://static.vecteezy.com/system/resources/thumbnails/001/993/889/small/beautiful-latin-woman-avatar-character-icon-free-vector.jpg);
