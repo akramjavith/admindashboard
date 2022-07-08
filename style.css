@@ -357,7 +357,7 @@ body {
 }
 
 .trend .picture {
-  background-color: greenyellow;
+  background-color: var(--accent);
   border-radius: 50%;
   width: 45px;
   height: 45px;
@@ -375,6 +375,7 @@ body {
   font-weight: 500;
   margin-bottom: 0.15rem;
 }
+
 
 .trend-1 .picture {
   background-image: url(https://static.vecteezy.com/system/resources/thumbnails/001/993/889/small/beautiful-latin-woman-avatar-character-icon-free-vector.jpg);
