@@ -6,7 +6,7 @@
   --gray-3: #292524;
   --gray-4: #1c1917;
   --gray-m: #78716c;
-  --primary:skyblue;
+  --primary:black;
   --accent: red;
   --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -63,7 +63,7 @@ body {
     'sidebar content';
 }
 
-/* header */
+/* --- --- --- --- --- HEADER --- --- --- --- --- --- */
 .header {
   background-color: var(--gray-1);
   grid-area: header;
@@ -122,9 +122,9 @@ body {
 }
 
 .picture {
-  background: var(--avatar1) center center / cover no-repeat;
+  background: var(--avatar1) center center / cover repeat;
   border-radius: 50%;
-}
+}                         
 
 .account .picture {
   margin: 0 1rem 0 2.5rem;
@@ -174,9 +174,9 @@ body {
   border-radius: 99em;
 }
 
-/* sidebar*/
+/* --- --- --- --- --- SIDEBAR --- --- --- --- --- --- */
 .sidebar {
-  background-color: var(--primary);
+  background-color: black;
   color: var(--gray-1);
   padding: 2rem;
   grid-area: sidebar;
@@ -214,7 +214,7 @@ body {
   font-size: 1.5em;
 }
 
-/* main content */
+/* --- --- --- --- --- MAIN CONTENT --- --- --- --- --- --- */
 .content {
   background-color: var(--gray-2);
   grid-area: content;
@@ -362,7 +362,6 @@ body {
   font-weight: 500;
   margin-bottom: 0.15rem;
 }
-
 .trend-1 .picture {
   background-image: url(https://static.vecteezy.com/system/resources/thumbnails/001/993/889/small/beautiful-latin-woman-avatar-character-icon-free-vector.jpg);
 }
