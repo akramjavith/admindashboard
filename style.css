@@ -63,7 +63,7 @@ body {
     'sidebar content';
 }
 
-/* --- --- --- --- --- HEADER --- --- --- --- --- --- */
+
 .header {
   background-color: var(--gray-1);
   grid-area: header;
@@ -174,7 +174,7 @@ body {
   border-radius: 99em;
 }
 
-/* --- --- --- --- --- SIDEBAR --- --- --- --- --- --- */
+
 .sidebar {
   background-color: black;
   color: var(--gray-1);
@@ -214,7 +214,7 @@ body {
   font-size: 1.5em;
 }
 
-/* --- --- --- --- --- MAIN CONTENT --- --- --- --- --- --- */
+
 .content {
   background-color: var(--gray-2);
   grid-area: content;
